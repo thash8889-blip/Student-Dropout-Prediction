@@ -1,0 +1,27 @@
+{
+    "baseline_model": {
+        "Model": "Random Forest",
+        "ROC-AUC": 0.8155070188184013,
+        "Recall": 0.6971830985915493,
+        "F1-score": 0.6481178396072013,
+        "Precision": 0.6055045871559633,
+        "Accuracy": 0.7570621468926554
+    },
+    "tuned_model": {
+        "Model": "Tuned Random Forest",
+        "ROC-AUC": 0.8107614070445971,
+        "Recall": 0.6971830985915493,
+        "F1-score": 0.6439024390243903,
+        "Precision": 0.5981873111782477,
+        "Accuracy": 0.752542372881356
+    },
+    "best_parameters": {
+        "n_estimators": 300,
+        "min_samples_leaf": 10,
+        "max_features": "log2",
+        "max_depth": 10
+    },
+    "best_cv_f1_score": 0.6225820528843165,
+    "final_selected_model": "Random Forest",
+    "selection_reason": "The tuned Random Forest did not outperform the baseline Random Forest on the held-out test set. The baseline model therefore remains the final selected model."
+}

@@ -1,0 +1,50 @@
+Feature,Importance
+cat__Tuition fees up to date_0,0.12517395293413436
+num__Age at enrollment,0.11338291717329092
+cat__Tuition fees up to date_1,0.11248953705122032
+num__Financial_Risk_Flag,0.10988132407707213
+cat__Scholarship holder_0,0.05892461629545089
+cat__Scholarship holder_1,0.05863354980638809
+num__Admission grade,0.05404229764933422
+num__Previous qualification (grade),0.04743721302614768
+cat__Application mode_1,0.034985683026387986
+cat__Gender_1,0.031110531711004134
+cat__Gender_0,0.030392994693776744
+num__Inflation rate,0.03039091054559245
+cat__Course_9500,0.02395962555689865
+cat__Debtor_0,0.02359245491285246
+cat__Age_Group_Under 20,0.022950458423553394
+cat__Debtor_1,0.022641110216662416
+cat__Mother's occupation_0,0.015511218009364572
+cat__Age_Group_30+,0.014989457291442548
+cat__Father's qualification_34,0.010959556071055544
+cat__Father's qualification_37,0.008942158154970908
+cat__Father's qualification_38,0.006912513747566099
+cat__Father's occupation_0,0.006886875958093627
+cat__Mother's qualification_19,0.00608024278935317
+cat__Course_8014,0.004698486116080277
+cat__Mother's qualification_3,0.004530814995987693
+cat__Course_9070,0.004201019549690812
+cat__Application mode_7,0.0037380350375129314
+cat__Application mode_43,0.003532848373771427
+cat__Previous qualification_3,0.00269993084830551
+cat__Course_9670,0.002618111039293501
+cat__Father's occupation_10,0.002106293884520253
+cat__Application order_6,0.0014207963354330602
+cat__Nacionality_26,9.298826677857987e-05
+cat__Father's qualification_39,8.9476431012762e-05
+cat__Mother's occupation_175,0.0
+cat__Father's occupation_131,0.0
+cat__Father's occupation_101,0.0
+cat__Nacionality_109,0.0
+cat__Previous qualification_10,0.0
+cat__Mother's occupation_122,0.0
+cat__Course_33,0.0
+cat__Father's occupation_112,0.0
+cat__Mother's occupation_10,0.0
+cat__Father's qualification_44,0.0
+cat__Father's occupation_175,0.0
+cat__Mother's occupation_153,0.0
+cat__Mother's occupation_123,0.0
+cat__Mother's qualification_6,0.0
+cat__Mother's qualification_44,0.0

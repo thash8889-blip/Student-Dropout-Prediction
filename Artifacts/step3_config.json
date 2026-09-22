@@ -1,0 +1,8 @@
+{
+  "random_state": 42,
+  "train_rows": 3539,
+  "test_rows": 885,
+  "processed_features": 245,
+  "selected_features": 49,
+  "pca_components_90_percent": 8
+}

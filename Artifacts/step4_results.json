@@ -1,0 +1,111 @@
+{
+    "model_comparison": [
+        {
+            "Model": "XGBoost",
+            "ROC-AUC": 0.8256251318225493,
+            "Recall": 0.5,
+            "F1-score": 0.605543710021322,
+            "Precision": 0.7675675675675676,
+            "Accuracy": 0.7909604519774012
+        },
+        {
+            "Model": "Logistic Regression",
+            "ROC-AUC": 0.818248927843266,
+            "Recall": 0.4859154929577465,
+            "F1-score": 0.6026200873362445,
+            "Precision": 0.7931034482758621,
+            "Accuracy": 0.7943502824858757
+        },
+        {
+            "Model": "Random Forest",
+            "ROC-AUC": 0.8155070188184013,
+            "Recall": 0.6971830985915493,
+            "F1-score": 0.6481178396072013,
+            "Precision": 0.6055045871559633,
+            "Accuracy": 0.7570621468926554
+        },
+        {
+            "Model": "SVM",
+            "ROC-AUC": 0.8139603009069392,
+            "Recall": 0.6690140845070423,
+            "F1-score": 0.6365159128978225,
+            "Precision": 0.6070287539936102,
+            "Accuracy": 0.7548022598870057
+        },
+        {
+            "Model": "Decision Tree",
+            "ROC-AUC": 0.7928686930233648,
+            "Recall": 0.5140845070422535,
+            "F1-score": 0.5983606557377049,
+            "Precision": 0.7156862745098039,
+            "Accuracy": 0.7785310734463277
+        }
+    ],
+    "recommended_model": {
+        "Recommended Model": "Random Forest",
+        "Reason": "Random Forest provides the strongest balance between identifying dropout students and maintaining precision. It achieved the highest dropout recall (69.72%) and highest F1-score (0.6481) among the tested models, while maintaining a strong ROC-AUC (0.8155).",
+        "Operating Threshold": 0.5,
+        "Dropout Recall": 0.697183,
+        "F1-score": 0.648118,
+        "ROC-AUC": 0.815507,
+        "Precision": 0.605505,
+        "Accuracy": 0.757062,
+        "Intervention Coverage": 0.697183
+    },
+    "threshold_analysis": [
+        {
+            "Threshold": 0.3,
+            "Recall": 0.9049295774647887,
+            "Precision": 0.4304857621440536,
+            "F1-score": 0.583427922814983
+        },
+        {
+            "Threshold": 0.35,
+            "Recall": 0.8697183098591549,
+            "Precision": 0.45996275605214154,
+            "F1-score": 0.6017052375152253
+        },
+        {
+            "Threshold": 0.39999999999999997,
+            "Recall": 0.8169014084507042,
+            "Precision": 0.4978540772532189,
+            "F1-score": 0.6186666666666667
+        },
+        {
+            "Threshold": 0.44999999999999996,
+            "Recall": 0.7570422535211268,
+            "Precision": 0.5443037974683544,
+            "F1-score": 0.6332842415316642
+        },
+        {
+            "Threshold": 0.49999999999999994,
+            "Recall": 0.6971830985915493,
+            "Precision": 0.6055045871559633,
+            "F1-score": 0.6481178396072013
+        },
+        {
+            "Threshold": 0.5499999999999999,
+            "Recall": 0.6232394366197183,
+            "Precision": 0.6679245283018868,
+            "F1-score": 0.644808743169399
+        },
+        {
+            "Threshold": 0.5999999999999999,
+            "Recall": 0.5352112676056338,
+            "Precision": 0.7238095238095238,
+            "F1-score": 0.6153846153846154
+        },
+        {
+            "Threshold": 0.6499999999999999,
+            "Recall": 0.47183098591549294,
+            "Precision": 0.7570621468926554,
+            "F1-score": 0.5813449023861171
+        },
+        {
+            "Threshold": 0.7,
+            "Recall": 0.397887323943662,
+            "Precision": 0.8188405797101449,
+            "F1-score": 0.5355450236966824
+        }
+    ]
+}
