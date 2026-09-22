@@ -79,7 +79,11 @@ Examples include:
 The dataset is stored in:
 
 `Data/data.csv`
+### Data Source
 
+This project uses the UCI Machine Learning Repository dataset "Predict Students' Dropout and Academic Success" (Realinho, Vieira Martins, Machado & Baptista, 2021).
+
+DOI: https://doi.org/10.24432/C5MC89
 ---
 
 ## Data Leakage Prevention
@@ -440,10 +444,8 @@ Reproducible Repository
 
 ## Project Status
 
-Steps 1–5 of the machine learning lifecycle have been completed.
+Steps 1–6 of the machine learning lifecycle have been completed, covering problem framing through final presentation and communication.
 
-Step 6 covers final presentation and communication.
-
-Step 7 focuses on packaging the project into a reproducible GitHub repository.
+Step 7 packages the completed project into this reproducible GitHub repository and completes the project documentation and version control setup.
 
 Optional deployment and MLOps components can be developed separately.
