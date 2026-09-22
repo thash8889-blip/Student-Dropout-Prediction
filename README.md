@@ -81,9 +81,8 @@ The dataset is stored in:
 `Data/data.csv`
 ### Data Source
 
-This project uses the UCI Machine Learning Repository dataset "Predict Students' Dropout and Academic Success" (Realinho, Vieira Martins, Machado & Baptista, 2021).
+This project uses the UCI Machine Learning Repository dataset "Predict Students' Dropout and Academic Success" (Realinho, Vieira Martins, Machado & Baptista, 2021). DOI: https://doi.org/10.24432/C5MC89
 
-DOI: https://doi.org/10.24432/C5MC89
 ---
 
 ## Data Leakage Prevention
