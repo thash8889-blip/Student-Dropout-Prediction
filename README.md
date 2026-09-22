@@ -447,4 +447,4 @@ Steps 1–6 of the machine learning lifecycle have been completed, covering prob
 
 Step 7 packages the completed project into this reproducible GitHub repository and completes the project documentation and version control setup.
 
-Optional deployment and MLOps components can be developed separately.
+
